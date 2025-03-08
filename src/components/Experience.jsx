@@ -1,6 +1,14 @@
+import { motion } from "framer-motion";
+
 function Experience() {
   return (
-    <section id="experience" className="py-12">
+    <motion.section
+      id="experience"
+      className="py-12"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <h2 className="text-3xl font-semibold text-teal-400 mb-4">Experience</h2>
       <div className="space-y-6">
         <div>
@@ -22,7 +30,7 @@ function Experience() {
           </ul>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 function Skills() {
   const skills = {
     "Programming Languages": [
@@ -42,7 +44,13 @@ function Skills() {
   };
 
   return (
-    <section id="skills" className="py-12">
+    <motion.section
+      id="skills"
+      className="py-12"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <h2 className="text-3xl font-semibold text-teal-400 mb-6 text-center">
         Skills
       </h2>
@@ -68,7 +76,7 @@ function Skills() {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }
 

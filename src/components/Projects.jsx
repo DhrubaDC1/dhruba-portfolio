@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 function Projects() {
   const projects = [
     {
@@ -129,7 +131,13 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-12">
+    <motion.section
+      id="projects"
+      className="py-12"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <h2 className="text-3xl font-semibold text-teal-400 mb-4">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((project, index) => (
@@ -150,7 +158,7 @@ function Projects() {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }
 
