@@ -13,7 +13,7 @@ function Projects() {
       name: "encryptIt",
       description:
         "Exploring encryption techniques for securing data or messages.",
-      tech: "Not specified",
+      tech: "React Native, Async Storage",
       link: "https://github.com/DhrubaDC1/encryptIt",
     },
     {
@@ -41,7 +41,7 @@ function Projects() {
       name: "share2Drive",
       description:
         "A file-sharing application, potentially integrated with cloud storage like Google Drive.",
-      tech: "Not specified",
+      tech: "Python, Google Drive API",
       link: "https://github.com/DhrubaDC1/share2Drive",
     },
     {
@@ -62,7 +62,7 @@ function Projects() {
       name: "bookSum",
       description:
         "A book summary generator or management system for organizing reading material.",
-      tech: "Not specified",
+      tech: "Node JS, LLM",
       link: "https://github.com/DhrubaDC1/bookSum",
     },
     {
@@ -83,7 +83,7 @@ function Projects() {
       name: "Virus-Basic-Reproduction-Calculator",
       description:
         "A tool to calculate the basic reproduction number (R0) of viruses for epidemiological analysis.",
-      tech: "Not specified",
+      tech: "Python, Tkinter",
       link: "https://github.com/DhrubaDC1/Virus-Basic-Reproduction-Calculator",
     },
     {
@@ -97,22 +97,15 @@ function Projects() {
       name: "gpad-tester",
       description:
         "A testing tool for devices or code, possibly related to gamepads or hardware.",
-      tech: "Not specified",
+      tech: "JavaScript, HTML, CSS",
       link: "https://github.com/DhrubaDC1/gpad-tester",
     },
     {
       name: "newsBringer",
       description:
         "A news aggregator or delivery system fetching and displaying current events.",
-      tech: "Not specified",
+      tech: "JavaScript, HTML, CSS, News API",
       link: "https://github.com/DhrubaDC1/newsBringer",
-    },
-    {
-      name: "gemini_bot",
-      description:
-        "A chatbot or AI assistant named Gemini, likely for conversational tasks.",
-      tech: "Not specified",
-      link: "https://github.com/DhrubaDC1/gemini_bot",
     },
     {
       name: "dont_be_broke",
@@ -120,13 +113,6 @@ function Projects() {
         "A financial management app or interactive tool to avoid financial pitfalls.",
       tech: "JavaScript",
       link: "https://github.com/DhrubaDC1/dont_be_broke",
-    },
-    {
-      name: "openPC",
-      description:
-        "A project related to open-source PC hardware or software solutions.",
-      tech: "Not specified",
-      link: "https://github.com/DhrubaDC1/openPC",
     },
   ];
 
