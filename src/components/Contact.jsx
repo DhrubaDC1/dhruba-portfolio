@@ -40,7 +40,7 @@ function Contact() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <h2 className="text-3xl font-semibold text-teal-400 mb-6 text-center">
+      <h2 className="text-4xl font-semibold text-teal-400 mb-6 text-center">
         Get in Touch
       </h2>
       <div className="max-w-3xl mx-auto">

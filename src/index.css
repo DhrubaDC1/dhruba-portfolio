@@ -39,3 +39,20 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+/* Custom black scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101828; /* Light gray background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #203050; /* Black scrollbar */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker black on hover */
+}

@@ -31,7 +31,7 @@ function App() {
         {/* Right Column: Scrollable Sections */}
         <div
           ref={sectionsColumnRef}
-          className="w-3/5 overflow-y-scroll snap-y snap-mandatory h-screen"
+          className="w-3/5 overflow-y-scroll snap-y snap-mandatory h-screen pr-4"
         >
           <section
             id="about"

@@ -9,7 +9,7 @@ function Experience() {
       viewport={{ once: true }}
       className="mx-auto px-4"
     >
-      <h2 className="text-3xl font-semibold text-teal-400 mb-4">Experience</h2>
+      <h2 className="text-4xl font-semibold text-teal-400 mb-4">Experience</h2>
       <div className="space-y-6">
         <div>
           <h3 className="text-xl font-medium">Junior Software Engineer</h3>
