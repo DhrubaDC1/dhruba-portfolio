@@ -2,35 +2,45 @@ import { motion } from "framer-motion";
 
 function Experience() {
   return (
-    <motion.section
-      id="experience"
-      className="py-12"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+      className="mx-auto px-4"
     >
       <h2 className="text-3xl font-semibold text-teal-400 mb-4">Experience</h2>
       <div className="space-y-6">
         <div>
           <h3 className="text-xl font-medium">Junior Software Engineer</h3>
-          <p className="text-gray-400">
-            Techdojo Limited | July 2023 - Present
-          </p>
-          <ul className="list-disc list-inside mt-2">
+          <p className="text-gray-400">TechDojo | July 2023 - Present</p>
+          <ul className="list-disc list-inside mt-2 text-gray-300">
             <li>
-              Developed front-end solutions using React, React Native, and
-              vanilla JavaScript.
+              Built UIs with React.js, Next.js, and Three.js for 3D experiences.
             </li>
-            <li>Designed user interfaces with Figma for seamless UX.</li>
-            <li>Contributed to backend development and system integration.</li>
             <li>
-              Leveraged AI tools like LangChain and OpenAI to train models and
-              build custom classification systems.
+              Created backend APIs with Node.js, MongoDB, and mobile apps with
+              React Native.
+            </li>
+            <li>
+              Added AI features using OpenAI and LangChain; designed UI/UX with
+              Figma.
             </li>
           </ul>
         </div>
+        <div>
+          <h3 className="text-xl font-medium">
+            WordPress Web Developer Intern
+          </h3>
+          <p className="text-gray-400">SOFTFY | Apr 2023 - May 2023</p>
+          <ul className="list-disc list-inside mt-2 text-gray-300">
+            <li>Developed WordPress sites with WooCommerce.</li>
+            <li>Customized themes and optimized responsive designs.</li>
+            <li>Delivered web solutions for business growth.</li>
+          </ul>
+        </div>
       </div>
-    </motion.section>
+    </motion.div>
   );
 }
 

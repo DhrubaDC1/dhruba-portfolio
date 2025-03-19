@@ -1,1 +1,41 @@
 @import "tailwindcss";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent default scrolling */
+}
+
+.flex {
+  display: flex;
+}
+
+.w-2/5 {
+  width: 40%;
+}
+
+.w-3/5 {
+  width: 60%;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}

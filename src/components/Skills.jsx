@@ -30,7 +30,7 @@ function Skills() {
     ],
     "Tools & Platforms": [
       { name: "Git", color: "bg-red-600" },
-      { name: "GitHub", color: "bg-gray-800" },
+      { name: "GitHub", color: "bg-gray-700" },
       { name: "Vite", color: "bg-purple-600" },
       { name: "Vercel", color: "bg-black" },
       { name: "Xcode", color: "bg-blue-500" },
