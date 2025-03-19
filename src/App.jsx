@@ -23,15 +23,15 @@ function App() {
   return (
     <div className="bg-gray-900 text-gray-100 min-h-screen">
       <Navbar scrollToSection={scrollToSection} />
-      <div className="flex flex-row">
+      <div className="flex flex-col md:flex-row">
         {/* Left Column: Avatar */}
-        <div className="w-2/5 sticky top-0 h-screen">
+        <div className="w-full md:w-2/5 sticky top-0 h-screen">
           <Avatar />
         </div>
         {/* Right Column: Scrollable Sections */}
         <div
           ref={sectionsColumnRef}
-          className="w-3/5 overflow-y-scroll snap-y snap-mandatory h-screen pr-4"
+          className="w-full md:w-3/5 overflow-y-scroll snap-y snap-mandatory h-screen pr-4"
         >
           <section
             id="about"
